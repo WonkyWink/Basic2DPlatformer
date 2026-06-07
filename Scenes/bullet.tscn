@@ -1,0 +1,16 @@
+[gd_scene format=3 uid="uid://4oepuwtjve5b"]
+
+[ext_resource type="Texture2D" uid="uid://c46c4nw6pbc0i" path="res://godot-platformer/assets/graphics/bullet/bullet.png" id="1_xjght"]
+
+[sub_resource type="CapsuleShape2D" id="CapsuleShape2D_oduel"]
+radius = 4.0
+height = 14.0
+
+[node name="Bullet" type="Area2D" unique_id=1752020208]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1524995153]
+texture = ExtResource("1_xjght")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=2077025049]
+rotation = 1.5707964
+shape = SubResource("CapsuleShape2D_oduel")

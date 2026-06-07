@@ -1,0 +1,14 @@
+[gd_scene format=3 uid="uid://c13yo04tqj2mw"]
+
+[ext_resource type="Texture2D" uid="uid://djv38mwmgei25" path="res://godot-platformer/assets/graphics/Enemies/bee/0.png" id="1_1cg8v"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_iiy0m"]
+radius = 5.0
+
+[node name="bee" type="Area2D" unique_id=1022677157]
+
+[node name="Sprite2D" type="Sprite2D" parent="." unique_id=1714171946]
+texture = ExtResource("1_1cg8v")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1952346057]
+shape = SubResource("CircleShape2D_iiy0m")
