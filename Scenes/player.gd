@@ -61,4 +61,4 @@ func apply_gravity():
 
 func _on_shoot(pos: Vector2) -> void:
 	print ('shoot from player')
-	print('testing git4')
+	print('testing git5')
